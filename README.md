@@ -20,5 +20,5 @@ java -jar...
 
 # 3. Count number to forward reads remaining
 ```bash
-grep ...
+grep -c '@' UFVPY232_1_paired.fastq
 ```
