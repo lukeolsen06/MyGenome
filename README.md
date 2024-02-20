@@ -13,3 +13,11 @@ Take screen shots of outuput files:
 ![F1Screenshot.png](/data/F1screenshot.png)
 
 ## 2. Ran trimmomatic
+```bash
+java -jar...
+```
+
+# 3. Count number to forward reads remaining
+```bash
+grep ...
+```
