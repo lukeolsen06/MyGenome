@@ -15,7 +15,7 @@ Take screen shots of outuput files:
 
 ## 2. Ran trimmomatic
 ```bash
-java -jar...
+java -jar trimmomatic-0.38.jar PE -threads 2 -phred33 -trimlog trimlog.txt UFVPY232_1.fq UFVPY232_2.fq UFVPY232_1_paired.fastq UFVPY232_1_unpaired.fastq UFVPY232_2_paired.fastq UFVPY232_2_unpaired.fastq CROP:280 SLIDINGWINDOW:20:20 MINLEN:120
 ```
 
 ## 3. Count number to forward reads remaining
