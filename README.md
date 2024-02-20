@@ -18,7 +18,7 @@ Take screen shots of outuput files:
 java -jar...
 ```
 
-# 3. Count number to forward reads remaining
+## 3. Count number to forward reads remaining
 ```bash
 grep -c '@' UFVPY232_1_paired.fastq
 ```
