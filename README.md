@@ -26,3 +26,8 @@ grep -c '@' UFVPY232_1_paired.fastq
 ```bash
 awk 'NR%4==2 {total += length($0)} END {print total}' UFVPY232_1_paired.fastq
 ```
+
+## 5. Assemble Genome
+# Step size of 10 
+sbatch velvetoptimiser_noclean.sh UFVPY232 61 131 10
+sbatch velvetoptimiser_noclean.sh UFVPY232 93 109 2
