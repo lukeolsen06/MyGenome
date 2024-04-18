@@ -45,3 +45,13 @@ awk 'NR%4==2 {total += length($0)} END {print total}' UFVPY232_1_paired.fastq
 ###  Identifying Genetic Variants between B71v2sh genome and my genome assembly
 ```sbatch CallVariants.sh ./UFVPY232_blast/```
 
+## 7. Gene Prediction with Hidden Markov Models
+### Running SNAP
+```snap-hmm Moryzae.hmm UFVPY232_final.fasta > UFVP232-snap.zff```
+
+### Running Augustus
+```augustus --species=magnaporthe_grisea --gff3=on --singlestrand=true --progress=true ../snap/UFVPY232_final.fasta > UFVPY232-augustus.gff3```
+
+### Running MAKER
+```maker 2>&1 | tee maker.log```
+
