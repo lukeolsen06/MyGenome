@@ -43,5 +43,5 @@ awk 'NR%4==2 {total += length($0)} END {print total}' UFVPY232_1_paired.fastq
 
 ## 6. Variant Calling
 ###  Identifying Genetic Variants between B71v2sh genome and my genome assembly
-```sbatch CallVariants.sh path/to/MyGenome_BLAST```
+```sbatch CallVariants.sh ./UFVPY232_blast/```
 
