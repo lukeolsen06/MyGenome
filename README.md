@@ -29,7 +29,19 @@ awk 'NR%4==2 {total += length($0)} END {print total}' UFVPY232_1_paired.fastq
 
 ## 5. Assemble Genome
 ### Step size of 10 
-sbatch velvetoptimiser_noclean.sh UFVPY232 61 131 10
+```sbatch velvetoptimiser_noclean.sh UFVPY232 61 131 10```
 
 ### Step size of 2
-sbatch velvetoptimiser_noclean.sh UFVPY232 93 109 2
+```sbatch velvetoptimiser_noclean.sh UFVPY232 93 109 2```
+
+## 6. Blast Search
+### Ran a blastn search using the sequence in MoRepeats.fasta as the query and your genome as the database (subject)
+```blastn -subject UFVPY232.fasta -query MoRepeats.fasta -out MoRepeats.UFVPY232.BLASTn0 -evalue 1e-20 -outfmt 0```
+
+### Use the script to find the ID and length of the longest contig in your assembly:
+```perl SequenceLengths.pl UFVPY232.fasta | sort -k2n```
+
+## 6. Variant Calling
+###  Identifying Genetic Variants between B71v2sh genome and my genome assembly
+```sbatch CallVariants.sh path/to/MyGenome_BLAST```
+
