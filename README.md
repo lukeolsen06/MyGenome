@@ -39,7 +39,7 @@ awk 'NR%4==2 {total += length($0)} END {print total}' UFVPY232_1_paired.fastq
 ```blastn -subject UFVPY232.fasta -query MoRepeats.fasta -out MoRepeats.UFVPY232.BLASTn0 -evalue 1e-20 -outfmt 0```
 
 ### Use the script to find the ID and length of the longest contig in your assembly:
-```perl SequenceLengths.pl UFVPY232.fasta | sort -k2n```
+```perl SequenceLengths.pl UFVPY232_nh.fasta | sort -k2n```
 
 ## 6. Variant Calling
 ###  Identifying Genetic Variants between B71v2sh genome and my genome assembly
