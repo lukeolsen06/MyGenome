@@ -40,7 +40,7 @@ awk 'NR%4==2 {total += length($0)} END {print total}' UFVPY232_1_paired.fastq
 
 ### Export a list of contigs that mostly comprise mitochondrial sequences:
 ```awk '$4/$3 > 0.9 {print $2 ",mitochondrion"}' MoMitochondrion.UFVPY232.BLAST > UFVPY232_mitochondrion.csv```
-#### Results: [Download UFVPY232_mitochondrion.csv](/Results/UFVPY232_mitochondrion.csv)
+#### Results: [UFVPY232_mitochondrion.csv](/Results/UFVPY232_mitochondrion.csv)
 
 ### Use the script to find the ID and length of the longest contig in your assembly:
 ```perl SequenceLengths.pl UFVPY232_nh.fasta | sort -k2n```
@@ -52,14 +52,14 @@ awk 'NR%4==2 {total += length($0)} END {print total}' UFVPY232_1_paired.fastq
 ## 7. Gene Prediction with Hidden Markov Models
 ### Running SNAP
 ```snap-hmm Moryzae.hmm UFVPY232_final.fasta > UFVP232-snap.zff```
-#### Results: [Download UFVPY232-snap.zff](/Results/UFVPY232-snap.zff)
+#### Results: [UFVPY232-snap.zff](/Results/UFVPY232-snap.zff)
 
 ### Running Augustus
 ```augustus --species=magnaporthe_grisea --gff3=on --singlestrand=true --progress=true ../snap/UFVPY232_final.fasta > UFVPY232-augustus.gff3```
-#### Results: [Download UFVPY232-augustus.gff3.zip](/Results/UFVPY232-augustus.gff3.zip)
+#### Results: [UFVPY232-augustus.gff3.zip](/Results/UFVPY232-augustus.gff3.zip)
 
 ### Running MAKER
 ```maker 2>&1 | tee maker.log```
-#### Results: [Download UFVPY232-annotations.zip](/Results/UFVPY232-annotations.zip)
+#### Results: [UFVPY232-annotations.zip](/Results/UFVPY232-annotations.zip)
 
 
