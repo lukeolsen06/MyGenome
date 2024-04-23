@@ -35,8 +35,12 @@ awk 'NR%4==2 {total += length($0)} END {print total}' UFVPY232_1_paired.fastq
 ```sbatch velvetoptimiser_noclean.sh UFVPY232 93 109 2```
 
 ## 6. Blast Search
-### Ran a blastn search using the sequence in MoRepeats.fasta as the query and your genome as the database (subject)
+### Ran a blastn search using the sequence in MoRepeats.fasta as the query and my genome as the database (subject)
 ```blastn -subject UFVPY232.fasta -query MoRepeats.fasta -out MoRepeats.UFVPY232.BLASTn0 -evalue 1e-20 -outfmt 0```
+
+### Export a list of contigs that mostly comprise mitochondrial sequences:
+```awk '$4/$3 > 0.9 {print $2 ",mitochondrion"}' MoMitochondrion.UFVPY232.BLAST > UFVPY232_mitochondrion.csv```
+#### Results: [Download UFVPY232_mitochondrion.csv](/Results/UFVPY232_mitochondrion.csv)
 
 ### Use the script to find the ID and length of the longest contig in your assembly:
 ```perl SequenceLengths.pl UFVPY232_nh.fasta | sort -k2n```
