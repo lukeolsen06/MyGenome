@@ -32,10 +32,13 @@ Output: 2,640,919,623
 ## 2. Genome Assembly
 ### Step size of 10 
 ```sbatch velvetoptimiser_noclean.sh UFVPY232 61 131 10```
-Results: [21-03-2024-16-03-49_Logfile.txt](/Results/21-03-2024-16-03-49_Logfile.txt)
+
+Results: 
 
 ### Step size of 2
 ```sbatch velvetoptimiser_noclean.sh UFVPY232 93 109 2```
+
+Results: [21-03-2024-16-03-49_Logfile.txt](/Results/21-03-2024-16-03-49_Logfile.txt)
 
 ## 3. Assessing genome completeness using BUSCO
 ```sbatch BuscoSingularity.sh UFVPY232/velvet_UFVPY232_93_109_2_noclean/UFVPY232_nh.fasta```
