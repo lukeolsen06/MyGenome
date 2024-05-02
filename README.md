@@ -47,8 +47,11 @@ Results: [21-03-2024-16-03-49_Logfile.txt](/Results/21-03-2024-16-03-49_Logfile.
 ```perl CullShortContigs.pl UFVPY232_nh.fasta```
 
 ## 4. BLASTing genome against mitochondrial genome and the B71v2sh reference genome
+
+### Mitochondrial genome
 ```blastn -query MoMitochondrion.fasta -subject UFVPY232_nh.fasta -evalue 1e-50 -max_target_seqs 20000 -outfmt '6 qseqid sseqid slen length qstart qend sstart send btop' -out MoMitochondrion.UFVPY232.BLAST```
 
+### B71v2sh reference genome
 ```blastn -query B71v2sh_masked.fasta -subject UFVPY232_final.fasta -evalue 1e-50 -max_target_seqs 20000 -outfmt '6 qseqid sseqid qstart qend sstart send btop' -out B71v2sh.UFVPY232.BLAST```
 
 ### Export a list of contigs that mostly comprise mitochondrial sequences:
