@@ -35,7 +35,7 @@ Output: 2,640,919,623
 
 Results: [21-03-2024-15-42-45_Logfile.txt](/Results/21-03-2024-15-42-45_Logfile.txt)
 
-### Step assembly of step size 2 to SLURM
+### Submit assembly of step size 2 to SLURM
 ```sbatch velvetoptimiser_noclean.sh UFVPY232 93 109 2```
 
 Results: [21-03-2024-16-03-49_Logfile.txt](/Results/21-03-2024-16-03-49_Logfile.txt)
