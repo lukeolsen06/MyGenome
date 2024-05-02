@@ -30,12 +30,12 @@ cat UFVPY232_1_paired.fastq UFVPY232_2_paired.fastq | awk 'NR%4==2 {total += len
 Output: 2,640,919,623
 
 ## 2. Genome Assembly
-### Step size of 10 
+### Submit assembly of step size 10 to SLURM
 ```sbatch velvetoptimiser_noclean.sh UFVPY232 61 131 10```
 
 Results: [21-03-2024-15-42-45_Logfile.txt](/Results/21-03-2024-15-42-45_Logfile.txt)
 
-### Step size of 2
+### Step assembly of step size 2 to SLURM
 ```sbatch velvetoptimiser_noclean.sh UFVPY232 93 109 2```
 
 Results: [21-03-2024-16-03-49_Logfile.txt](/Results/21-03-2024-16-03-49_Logfile.txt)
