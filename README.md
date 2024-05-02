@@ -32,6 +32,7 @@ Output: 2,640,919,623
 ## 2. Genome Assembly
 ### Step size of 10 
 ```sbatch velvetoptimiser_noclean.sh UFVPY232 61 131 10```
+Results: [21-03-2024-16-03-49_Logfile.txt](/Results/21-03-2024-16-03-49_Logfile.txt)
 
 ### Step size of 2
 ```sbatch velvetoptimiser_noclean.sh UFVPY232 93 109 2```
