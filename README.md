@@ -74,6 +74,6 @@ Output: 2,640,919,623
 ### Predicted Genes:
 ```grep -c '^>' UFVPY232-genes.fasta.all.maker.augustus.proteins.fasta```
 
-Number of predicted proteins: 11165
+Number of predicted proteins: 11,165
 
 
