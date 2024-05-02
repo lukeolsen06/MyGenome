@@ -39,6 +39,9 @@ Output: 2,640,919,623
 ## 3. Assessing genome completeness using BUSCO
 ```sbatch BuscoSingularity.sh UFVPY232/velvet_UFVPY232_93_109_2_noclean/UFVPY232_nh.fasta```
 
+### Remove contigs less than 200 base pairs long
+```perl CullShortContigs.pl UFVPY231_nh.fasta````
+
 ## 4. BLASTing genome against mitochondrial genome and the B71v2sh reference genome
 ### Ran a blastn search using the sequence in MoRepeats.fasta as the query and my genome as the database (subject)
 ```blastn -subject UFVPY232.fasta -query MoRepeats.fasta -out MoRepeats.UFVPY232.BLASTn0 -evalue 1e-20 -outfmt 0```
@@ -51,7 +54,7 @@ Output: 2,640,919,623
 ```perl SequenceLengths.pl UFVPY232_nh.fasta | sort -k2n```
 
 ### Variant Calling
-###  Identifying Genetic Variants between B71v2sh genome and my genome assembly
+#### Identifying Genetic Variants between B71v2sh genome and my genome assembly
 ```sbatch CallVariants.sh ./UFVPY232_blast/```
 
 ## 5. Gene Prediction with Hidden Markov Models
