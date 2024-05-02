@@ -65,6 +65,7 @@ awk 'NR%4==2 {total += length($0)} END {print total}' UFVPY232_1_paired.fastq
 
 ### Predicted Genes:
 ```grep -c '^>' UFVPY232-genes.fasta.all.maker.augustus.proteins.fasta```
-Number of predicted genes: 11165
+
+Number of predicted proteins: 11165
 
 
