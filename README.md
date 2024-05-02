@@ -46,7 +46,7 @@ Results: [21-03-2024-16-03-49_Logfile.txt](/Results/21-03-2024-16-03-49_Logfile.
 ### Remove contigs less than 200 base pairs long
 ```perl CullShortContigs.pl UFVPY232_nh.fasta```
 
-[UFVPY232_nh.fasta](/Results/UFVPY232_nh.fasta.zip)
+[UFVPY232_final.fasta](/Results/UFVPY232_final.fasta.zip)
 
 ## 4. BLASTing genome against mitochondrial genome and the B71v2sh reference genome
 
