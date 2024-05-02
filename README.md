@@ -22,10 +22,12 @@ java -jar trimmomatic-0.38.jar PE -threads 2 -phred33 -trimlog trimlog.txt UFVPY
 ```bash
 grep -c '@' UFVPY232_1_paired.fastq
 ```
-### Count of number of forward bases
+Output: 8,813,356
+### Count of the number of bases in cleaned reads (forward and reverse)
 ```bash
-awk 'NR%4==2 {total += length($0)} END {print total}' UFVPY232_1_paired.fastq
+cat UFVPY232_1_paired.fastq UFVPY232_2_paired.fastq | awk 'NR%4==2 {total += length($0)} END {print total}'
 ```
+Output: 2,640,919,623
 
 ## 2. Genome Assembly
 ### Step size of 10 
