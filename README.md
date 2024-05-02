@@ -44,7 +44,7 @@ Results: [21-03-2024-16-03-49_Logfile.txt](/Results/21-03-2024-16-03-49_Logfile.
 ```sbatch BuscoSingularity.sh UFVPY232/velvet_UFVPY232_93_109_2_noclean/UFVPY232_nh.fasta```
 
 ### Remove contigs less than 200 base pairs long
-```perl CullShortContigs.pl UFVPY231_nh.fasta````
+```perl CullShortContigs.pl UFVPY231_nh.fasta```
 
 ## 4. BLASTing genome against mitochondrial genome and the B71v2sh reference genome
 ### Ran a blastn search using the sequence in MoRepeats.fasta as the query and my genome as the database (subject)
