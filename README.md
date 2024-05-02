@@ -1,4 +1,4 @@
-# MyGenome
+# MyGenome (UFVPY232)
 Analyses for CS485G genome assembly
 
 ## 1. Sequence quality assessment and trimming
