@@ -54,6 +54,8 @@ Results: [21-03-2024-16-03-49_Logfile.txt](/Results/21-03-2024-16-03-49_Logfile.
 ### B71v2sh reference genome
 ```blastn -query B71v2sh_masked.fasta -subject UFVPY232_final.fasta -evalue 1e-50 -max_target_seqs 20000 -outfmt '6 qseqid sseqid qstart qend sstart send btop' -out B71v2sh.UFVPY232.BLAST```
 
+[B71v2sh.UFVPY232.BLAST](/Results/B71v2sh.UFVPY232.BLAST)
+
 ### Export a list of contigs that mostly comprise mitochondrial sequences:
 ```awk '$4/$3 > 0.9 {print $2 ",mitochondrion"}' MoMitochondrion.UFVPY232.BLAST > UFVPY232_mitochondrion.csv```
 #### Results: [UFVPY232_mitochondrion.csv](/Results/UFVPY232_mitochondrion.csv)
