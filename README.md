@@ -60,6 +60,11 @@ awk 'NR%4==2 {total += length($0)} END {print total}' UFVPY232_1_paired.fastq
 
 ### Running MAKER
 ```maker 2>&1 | tee maker.log```
+```fasta_merge -d UFVPY232_final.maker.output/UFVPY232_final_master_datastore_index.log -o UFVPY232-genes.fasta'''
 #### Results: [UFVPY232-annotations.zip](/Results/UFVPY232-annotations.zip)
+
+### Predicted Genes:
+```grep -c '^>' UFVPY232-genes.fasta.all.maker.augustus.proteins.fasta```
+Number of predicted genes: 11165
 
 
