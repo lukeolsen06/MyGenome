@@ -1,0 +1,517 @@
+	User specified velvetg options:  -clean no
+Mar 21 15:42:45
+Will run velvet optimiser with the following paramters:
+	Velveth parameter string:
+		 -shortPaired -fastq -separate forward.fq reverse.fq
+	Velveth start hash values:	61
+	Velveth end hash value:		131
+	Velveth hash step value:	10
+	Velvetg minimum coverage cutoff to use:	0
+
+	User specified velvetg options:  -clean no
+	Read tracking for final assembly off.
+Mar 21 15:42:45
+
+	Beginning velveth runs.
+********************************************************
+Assembly id: 1
+Velveth timestamp: Mar 21 2024 15:44:53
+Velveth version: 1.2.10
+Readfile(s): -shortPaired -fastq -separate forward.fq reverse.fq
+Velveth parameter string: auto_data_61 61  -shortPaired -fastq -separate forward.fq reverse.fq
+Assembly directory: /project/farman_s24cs485g/leol225/UFVPY232/auto_data_61
+Velvet hash value: 61
+Roadmap file size: 1111725138
+**********************************************************
+********************************************************
+Assembly id: 2
+Velveth timestamp: Mar 21 2024 15:45:14
+Velveth version: 1.2.10
+Readfile(s): -shortPaired -fastq -separate forward.fq reverse.fq
+Velveth parameter string: auto_data_71 71  -shortPaired -fastq -separate forward.fq reverse.fq
+Assembly directory: /project/farman_s24cs485g/leol225/UFVPY232/auto_data_71
+Velvet hash value: 71
+Roadmap file size: 1077859484
+**********************************************************
+********************************************************
+Assembly id: 8
+Velveth timestamp: Mar 21 2024 15:45:16
+Velveth version: 1.2.10
+Readfile(s): -shortPaired -fastq -separate forward.fq reverse.fq
+Velveth parameter string: auto_data_131 131  -shortPaired -fastq -separate forward.fq reverse.fq
+Assembly directory: /project/farman_s24cs485g/leol225/UFVPY232/auto_data_131
+Velvet hash value: 131
+Roadmap file size: 787629232
+**********************************************************
+********************************************************
+Assembly id: 6
+Velveth timestamp: Mar 21 2024 15:45:23
+Velveth version: 1.2.10
+Readfile(s): -shortPaired -fastq -separate forward.fq reverse.fq
+Velveth parameter string: auto_data_111 111  -shortPaired -fastq -separate forward.fq reverse.fq
+Assembly directory: /project/farman_s24cs485g/leol225/UFVPY232/auto_data_111
+Velvet hash value: 111
+Roadmap file size: 928777478
+**********************************************************
+********************************************************
+Assembly id: 3
+Velveth timestamp: Mar 21 2024 15:45:23
+Velveth version: 1.2.10
+Readfile(s): -shortPaired -fastq -separate forward.fq reverse.fq
+Velveth parameter string: auto_data_81 81  -shortPaired -fastq -separate forward.fq reverse.fq
+Assembly directory: /project/farman_s24cs485g/leol225/UFVPY232/auto_data_81
+Velvet hash value: 81
+Roadmap file size: 1045094584
+**********************************************************
+********************************************************
+Assembly id: 7
+Velveth timestamp: Mar 21 2024 15:45:23
+Velveth version: 1.2.10
+Readfile(s): -shortPaired -fastq -separate forward.fq reverse.fq
+Velveth parameter string: auto_data_121 121  -shortPaired -fastq -separate forward.fq reverse.fq
+Assembly directory: /project/farman_s24cs485g/leol225/UFVPY232/auto_data_121
+Velvet hash value: 121
+Roadmap file size: 871848554
+**********************************************************
+********************************************************
+Assembly id: 4
+Velveth timestamp: Mar 21 2024 15:45:24
+Velveth version: 1.2.10
+Readfile(s): -shortPaired -fastq -separate forward.fq reverse.fq
+Velveth parameter string: auto_data_91 91  -shortPaired -fastq -separate forward.fq reverse.fq
+Assembly directory: /project/farman_s24cs485g/leol225/UFVPY232/auto_data_91
+Velvet hash value: 91
+Roadmap file size: 1011015750
+**********************************************************
+********************************************************
+Assembly id: 5
+Velveth timestamp: Mar 21 2024 15:45:25
+Velveth version: 1.2.10
+Readfile(s): -shortPaired -fastq -separate forward.fq reverse.fq
+Velveth parameter string: auto_data_101 101  -shortPaired -fastq -separate forward.fq reverse.fq
+Assembly directory: /project/farman_s24cs485g/leol225/UFVPY232/auto_data_101
+Velvet hash value: 101
+Roadmap file size: 972138522
+**********************************************************
+Mar 21 15:45:25
+
+	Beginning vanilla velvetg runs.
+********************************************************
+Assembly id: 8
+Assembly score: 730
+Velveth timestamp: Mar 21 2024 15:45:16
+Velvetg timestamp: Mar 21 2024 15:48:36
+Velveth version: 1.2.10
+Velvetg version: 1.2.10
+Readfile(s): -shortPaired -fastq -separate forward.fq reverse.fq
+Velveth parameter string: auto_data_131 131  -shortPaired -fastq -separate forward.fq reverse.fq
+Velvetg parameter string: auto_data_131  -clean no -clean yes
+Assembly directory: /project/farman_s24cs485g/leol225/UFVPY232/auto_data_131
+Velvet hash value: 131
+Roadmap file size: 787629232
+Total number of contigs: 50939
+n50: 730
+length of longest contig: 19325
+Total bases in contigs: 35798483
+Number of contigs > 1k: 7399
+Total bases in contigs > 1k: 10050654
+**********************************************************
+********************************************************
+Assembly id: 6
+Assembly score: 14394
+Velveth timestamp: Mar 21 2024 15:45:23
+Velvetg timestamp: Mar 21 2024 15:49:22
+Velveth version: 1.2.10
+Velvetg version: 1.2.10
+Readfile(s): -shortPaired -fastq -separate forward.fq reverse.fq
+Velveth parameter string: auto_data_111 111  -shortPaired -fastq -separate forward.fq reverse.fq
+Velvetg parameter string: auto_data_111  -clean no -clean yes
+Assembly directory: /project/farman_s24cs485g/leol225/UFVPY232/auto_data_111
+Velvet hash value: 111
+Roadmap file size: 928777478
+Total number of contigs: 9195
+n50: 14394
+length of longest contig: 74077
+Total bases in contigs: 42387621
+Number of contigs > 1k: 4688
+Total bases in contigs > 1k: 40659237
+**********************************************************
+********************************************************
+Assembly id: 7
+Assembly score: 3689
+Velveth timestamp: Mar 21 2024 15:45:23
+Velvetg timestamp: Mar 21 2024 15:49:22
+Velveth version: 1.2.10
+Velvetg version: 1.2.10
+Readfile(s): -shortPaired -fastq -separate forward.fq reverse.fq
+Velveth parameter string: auto_data_121 121  -shortPaired -fastq -separate forward.fq reverse.fq
+Velvetg parameter string: auto_data_121  -clean no -clean yes
+Assembly directory: /project/farman_s24cs485g/leol225/UFVPY232/auto_data_121
+Velvet hash value: 121
+Roadmap file size: 871848554
+Total number of contigs: 20226
+n50: 3689
+length of longest contig: 23331
+Total bases in contigs: 42889814
+Number of contigs > 1k: 11741
+Total bases in contigs > 1k: 38087746
+**********************************************************
+********************************************************
+Assembly id: 4
+Assembly score: 16282
+Velveth timestamp: Mar 21 2024 15:45:24
+Velvetg timestamp: Mar 21 2024 15:49:35
+Velveth version: 1.2.10
+Velvetg version: 1.2.10
+Readfile(s): -shortPaired -fastq -separate forward.fq reverse.fq
+Velveth parameter string: auto_data_91 91  -shortPaired -fastq -separate forward.fq reverse.fq
+Velvetg parameter string: auto_data_91  -clean no -clean yes
+Assembly directory: /project/farman_s24cs485g/leol225/UFVPY232/auto_data_91
+Velvet hash value: 91
+Roadmap file size: 1011015750
+Total number of contigs: 10007
+n50: 16282
+length of longest contig: 144606
+Total bases in contigs: 42335179
+Number of contigs > 1k: 4110
+Total bases in contigs > 1k: 40598543
+**********************************************************
+********************************************************
+Assembly id: 5
+Assembly score: 19779
+Velveth timestamp: Mar 21 2024 15:45:25
+Velvetg timestamp: Mar 21 2024 15:49:37
+Velveth version: 1.2.10
+Velvetg version: 1.2.10
+Readfile(s): -shortPaired -fastq -separate forward.fq reverse.fq
+Velveth parameter string: auto_data_101 101  -shortPaired -fastq -separate forward.fq reverse.fq
+Velvetg parameter string: auto_data_101  -clean no -clean yes
+Assembly directory: /project/farman_s24cs485g/leol225/UFVPY232/auto_data_101
+Velvet hash value: 101
+Roadmap file size: 972138522
+Total number of contigs: 9857
+n50: 19779
+length of longest contig: 94507
+Total bases in contigs: 42564161
+Number of contigs > 1k: 3480
+Total bases in contigs > 1k: 40731078
+**********************************************************
+********************************************************
+Assembly id: 3
+Assembly score: 11750
+Velveth timestamp: Mar 21 2024 15:45:23
+Velvetg timestamp: Mar 21 2024 15:49:48
+Velveth version: 1.2.10
+Velvetg version: 1.2.10
+Readfile(s): -shortPaired -fastq -separate forward.fq reverse.fq
+Velveth parameter string: auto_data_81 81  -shortPaired -fastq -separate forward.fq reverse.fq
+Velvetg parameter string: auto_data_81  -clean no -clean yes
+Assembly directory: /project/farman_s24cs485g/leol225/UFVPY232/auto_data_81
+Velvet hash value: 81
+Roadmap file size: 1045094584
+Total number of contigs: 14902
+n50: 11750
+length of longest contig: 88275
+Total bases in contigs: 42658021
+Number of contigs > 1k: 5390
+Total bases in contigs > 1k: 40118821
+**********************************************************
+********************************************************
+Assembly id: 2
+Assembly score: 6738
+Velveth timestamp: Mar 21 2024 15:45:14
+Velvetg timestamp: Mar 21 2024 15:50:10
+Velveth version: 1.2.10
+Velvetg version: 1.2.10
+Readfile(s): -shortPaired -fastq -separate forward.fq reverse.fq
+Velveth parameter string: auto_data_71 71  -shortPaired -fastq -separate forward.fq reverse.fq
+Velvetg parameter string: auto_data_71  -clean no -clean yes
+Assembly directory: /project/farman_s24cs485g/leol225/UFVPY232/auto_data_71
+Velvet hash value: 71
+Roadmap file size: 1077859484
+Total number of contigs: 27531
+n50: 6738
+length of longest contig: 71605
+Total bases in contigs: 43612114
+Number of contigs > 1k: 7563
+Total bases in contigs > 1k: 38597805
+**********************************************************
+********************************************************
+Assembly id: 1
+Assembly score: 4281
+Velveth timestamp: Mar 21 2024 15:44:53
+Velvetg timestamp: Mar 21 2024 15:50:37
+Velveth version: 1.2.10
+Velvetg version: 1.2.10
+Readfile(s): -shortPaired -fastq -separate forward.fq reverse.fq
+Velveth parameter string: auto_data_61 61  -shortPaired -fastq -separate forward.fq reverse.fq
+Velvetg parameter string: auto_data_61  -clean no -clean yes
+Assembly directory: /project/farman_s24cs485g/leol225/UFVPY232/auto_data_61
+Velvet hash value: 61
+Roadmap file size: 1111725138
+Total number of contigs: 44334
+n50: 4281
+length of longest contig: 33776
+Total bases in contigs: 44797255
+Number of contigs > 1k: 9426
+Total bases in contigs > 1k: 36816402
+**********************************************************
+Mar 21 15:50:41 Best assembly by assembly score - assembly id: 5
+Mar 21 15:50:41 Optimisation routine chosen for best assembly: shortPaired
+Mar 21 15:50:41 Looking for the expected coverage
+Mar 21 15:50:49		Expected coverage set to 17
+********************************************************
+Assembly id: 5
+Assembly score: 19779
+Velveth timestamp: Mar 21 2024 15:45:25
+Velvetg timestamp: Mar 21 2024 15:49:37
+Velveth version: 1.2.10
+Velvetg version: 1.2.10
+Readfile(s): -shortPaired -fastq -separate forward.fq reverse.fq
+Velveth parameter string: auto_data_101 101  -shortPaired -fastq -separate forward.fq reverse.fq
+Velvetg parameter string: auto_data_101  -clean no -clean yes -exp_cov 17
+Assembly directory: /project/farman_s24cs485g/leol225/UFVPY232/auto_data_101
+Velvet hash value: 101
+Roadmap file size: 972138522
+Total number of contigs: 9857
+n50: 19779
+length of longest contig: 94507
+Total bases in contigs: 42564161
+Number of contigs > 1k: 3480
+Total bases in contigs > 1k: 40731078
+Paired Library insert stats:
+**********************************************************
+Mar 21 15:50:49 Setting assembly short insert length(s) to auto
+Mar 21 15:50:49 Beginning coverage cutoff optimisation
+Mar 21 15:50:56		Setting cov_cutoff to 8.405.
+********************************************************
+Assembly id: 5
+Assembly score: 41396488
+Velveth timestamp: Mar 21 2024 15:45:25
+Velvetg timestamp: Mar 21 2024 15:52:47
+Velveth version: 1.2.10
+Velvetg version: 1.2.10
+Readfile(s): -shortPaired -fastq -separate forward.fq reverse.fq
+Velveth parameter string: auto_data_101 101  -shortPaired -fastq -separate forward.fq reverse.fq
+Velvetg parameter string: auto_data_101  -clean no -clean yes -exp_cov 17 -cov_cutoff 8.4048
+Assembly directory: /project/farman_s24cs485g/leol225/UFVPY232/auto_data_101
+Velvet hash value: 101
+Roadmap file size: 972138522
+Total number of contigs: 2426
+n50: 74620
+length of longest contig: 291142
+Total bases in contigs: 41819733
+Number of contigs > 1k: 1108
+Total bases in contigs > 1k: 41396488
+Paired Library insert stats:
+Paired-end library 1 has length: 275, sample standard deviation: 103
+Paired-end library 1 has length: 275, sample standard deviation: 104
+**********************************************************
+Mar 21 15:52:48		Setting cov_cutoff to 5.195.
+********************************************************
+Assembly id: 5
+Assembly score: 41510820
+Velveth timestamp: Mar 21 2024 15:45:25
+Velvetg timestamp: Mar 21 2024 15:53:48
+Velveth version: 1.2.10
+Velvetg version: 1.2.10
+Readfile(s): -shortPaired -fastq -separate forward.fq reverse.fq
+Velveth parameter string: auto_data_101 101  -shortPaired -fastq -separate forward.fq reverse.fq
+Velvetg parameter string: auto_data_101  -clean no -clean yes -exp_cov 17 -cov_cutoff 5.1952
+Assembly directory: /project/farman_s24cs485g/leol225/UFVPY232/auto_data_101
+Velvet hash value: 101
+Roadmap file size: 972138522
+Total number of contigs: 2593
+n50: 78154
+length of longest contig: 291185
+Total bases in contigs: 41971149
+Number of contigs > 1k: 1088
+Total bases in contigs > 1k: 41510820
+Paired Library insert stats:
+Paired-end library 1 has length: 275, sample standard deviation: 103
+Paired-end library 1 has length: 275, sample standard deviation: 104
+**********************************************************
+		Looking for best cutoff score between 0.000 and 13.600
+		Max cutoff lies between 0.000 & 8.405
+Mar 21 15:53:49		Setting cov_cutoff to 3.211.
+********************************************************
+Assembly id: 5
+Assembly score: 41504655
+Velveth timestamp: Mar 21 2024 15:45:25
+Velvetg timestamp: Mar 21 2024 15:54:50
+Velveth version: 1.2.10
+Velvetg version: 1.2.10
+Readfile(s): -shortPaired -fastq -separate forward.fq reverse.fq
+Velveth parameter string: auto_data_101 101  -shortPaired -fastq -separate forward.fq reverse.fq
+Velvetg parameter string: auto_data_101  -clean no -clean yes -exp_cov 17 -cov_cutoff 3.2106336
+Assembly directory: /project/farman_s24cs485g/leol225/UFVPY232/auto_data_101
+Velvet hash value: 101
+Roadmap file size: 972138522
+Total number of contigs: 2961
+n50: 78154
+length of longest contig: 291185
+Total bases in contigs: 42041467
+Number of contigs > 1k: 1092
+Total bases in contigs > 1k: 41504655
+Paired Library insert stats:
+Paired-end library 1 has length: 275, sample standard deviation: 103
+Paired-end library 1 has length: 275, sample standard deviation: 104
+**********************************************************
+		Max cutoff lies between 3.211 & 8.405
+Mar 21 15:54:51		Setting cov_cutoff to 6.421.
+********************************************************
+Assembly id: 5
+Assembly score: 41503651
+Velveth timestamp: Mar 21 2024 15:45:25
+Velvetg timestamp: Mar 21 2024 15:55:52
+Velveth version: 1.2.10
+Velvetg version: 1.2.10
+Readfile(s): -shortPaired -fastq -separate forward.fq reverse.fq
+Velveth parameter string: auto_data_101 101  -shortPaired -fastq -separate forward.fq reverse.fq
+Velvetg parameter string: auto_data_101  -clean no -clean yes -exp_cov 17 -cov_cutoff 6.4206284352
+Assembly directory: /project/farman_s24cs485g/leol225/UFVPY232/auto_data_101
+Velvet hash value: 101
+Roadmap file size: 972138522
+Total number of contigs: 2505
+n50: 78143
+length of longest contig: 291185
+Total bases in contigs: 41944837
+Number of contigs > 1k: 1089
+Total bases in contigs > 1k: 41503651
+Paired Library insert stats:
+Paired-end library 1 has length: 275, sample standard deviation: 103
+Paired-end library 1 has length: 275, sample standard deviation: 104
+**********************************************************
+		Max cutoff lies between 3.211 & 6.421
+Mar 21 15:55:52		Setting cov_cutoff to 4.437.
+********************************************************
+Assembly id: 5
+Assembly score: 41508788
+Velveth timestamp: Mar 21 2024 15:45:25
+Velvetg timestamp: Mar 21 2024 15:56:53
+Velveth version: 1.2.10
+Velvetg version: 1.2.10
+Readfile(s): -shortPaired -fastq -separate forward.fq reverse.fq
+Velveth parameter string: auto_data_101 101  -shortPaired -fastq -separate forward.fq reverse.fq
+Velvetg parameter string: auto_data_101  -clean no -clean yes -exp_cov 17 -cov_cutoff 4.4368516270464
+Assembly directory: /project/farman_s24cs485g/leol225/UFVPY232/auto_data_101
+Velvet hash value: 101
+Roadmap file size: 972138522
+Total number of contigs: 2734
+n50: 78154
+length of longest contig: 291185
+Total bases in contigs: 41998926
+Number of contigs > 1k: 1090
+Total bases in contigs > 1k: 41508788
+Paired Library insert stats:
+Paired-end library 1 has length: 275, sample standard deviation: 103
+Paired-end library 1 has length: 275, sample standard deviation: 104
+**********************************************************
+		Max cutoff lies between 4.437 & 6.421
+Mar 21 15:56:54		Setting cov_cutoff to 5.663.
+********************************************************
+Assembly id: 5
+Assembly score: 41510820
+Velveth timestamp: Mar 21 2024 15:45:25
+Velvetg timestamp: Mar 21 2024 15:57:54
+Velveth version: 1.2.10
+Velvetg version: 1.2.10
+Readfile(s): -shortPaired -fastq -separate forward.fq reverse.fq
+Velveth parameter string: auto_data_101 101  -shortPaired -fastq -separate forward.fq reverse.fq
+Velvetg parameter string: auto_data_101  -clean no -clean yes -exp_cov 17 -cov_cutoff 5.66282569448533
+Assembly directory: /project/farman_s24cs485g/leol225/UFVPY232/auto_data_101
+Velvet hash value: 101
+Roadmap file size: 972138522
+Total number of contigs: 2593
+n50: 78154
+length of longest contig: 291185
+Total bases in contigs: 41971149
+Number of contigs > 1k: 1088
+Total bases in contigs > 1k: 41510820
+Paired Library insert stats:
+Paired-end library 1 has length: 275, sample standard deviation: 103
+Paired-end library 1 has length: 275, sample standard deviation: 104
+**********************************************************
+		Max cutoff lies between 4.437 & 5.663
+Mar 21 15:57:55		Setting cov_cutoff to 4.905.
+********************************************************
+Assembly id: 5
+Assembly score: 41508788
+Velveth timestamp: Mar 21 2024 15:45:25
+Velvetg timestamp: Mar 21 2024 15:58:56
+Velveth version: 1.2.10
+Velvetg version: 1.2.10
+Readfile(s): -shortPaired -fastq -separate forward.fq reverse.fq
+Velveth parameter string: auto_data_101 101  -shortPaired -fastq -separate forward.fq reverse.fq
+Velvetg parameter string: auto_data_101  -clean no -clean yes -exp_cov 17 -cov_cutoff 4.90517372080807
+Assembly directory: /project/farman_s24cs485g/leol225/UFVPY232/auto_data_101
+Velvet hash value: 101
+Roadmap file size: 972138522
+Total number of contigs: 2734
+n50: 78154
+length of longest contig: 291185
+Total bases in contigs: 41998926
+Number of contigs > 1k: 1090
+Total bases in contigs > 1k: 41508788
+Paired Library insert stats:
+Paired-end library 1 has length: 275, sample standard deviation: 103
+Paired-end library 1 has length: 275, sample standard deviation: 104
+**********************************************************
+		Max cutoff lies between 4.905 & 5.663
+Mar 21 15:58:57		Setting cov_cutoff to 5.373.
+********************************************************
+Assembly id: 5
+Assembly score: 41510820
+Velveth timestamp: Mar 21 2024 15:45:25
+Velvetg timestamp: Mar 21 2024 15:59:58
+Velveth version: 1.2.10
+Velvetg version: 1.2.10
+Readfile(s): -shortPaired -fastq -separate forward.fq reverse.fq
+Velveth parameter string: auto_data_101 101  -shortPaired -fastq -separate forward.fq reverse.fq
+Velvetg parameter string: auto_data_101  -clean no -clean yes -exp_cov 17 -cov_cutoff 5.37340264054061
+Assembly directory: /project/farman_s24cs485g/leol225/UFVPY232/auto_data_101
+Velvet hash value: 101
+Roadmap file size: 972138522
+Total number of contigs: 2593
+n50: 78154
+length of longest contig: 291185
+Total bases in contigs: 41971149
+Number of contigs > 1k: 1088
+Total bases in contigs > 1k: 41510820
+Paired Library insert stats:
+Paired-end library 1 has length: 275, sample standard deviation: 103
+Paired-end library 1 has length: 275, sample standard deviation: 104
+**********************************************************
+		Optimum value of cutoff is 5.66
+		Took 7 iterations
+Mar 21 15:59:59
+
+
+Final optimised assembly details:
+********************************************************
+Assembly id: 5
+Assembly score: 41510820
+Velveth timestamp: Mar 21 2024 15:45:25
+Velvetg timestamp: Mar 21 2024 15:59:58
+Velveth version: 1.2.10
+Velvetg version: 1.2.10
+Readfile(s): -shortPaired -fastq -separate forward.fq reverse.fq
+Velveth parameter string: auto_data_101 101  -shortPaired -fastq -separate forward.fq reverse.fq
+Velvetg parameter string: auto_data_101  -clean no -clean yes -exp_cov 17 -cov_cutoff 5.37340264054061
+Assembly directory: /project/farman_s24cs485g/leol225/UFVPY232/auto_data_101
+Velvet hash value: 101
+Roadmap file size: 972138522
+Total number of contigs: 2593
+n50: 78154
+length of longest contig: 291185
+Total bases in contigs: 41971149
+Number of contigs > 1k: 1088
+Total bases in contigs > 1k: 41510820
+Paired Library insert stats:
+Paired-end library 1 has length: 275, sample standard deviation: 103
+Paired-end library 1 has length: 275, sample standard deviation: 104
+**********************************************************
+
+
+Assembly output files are in the following directory:
+velvet_UFVPY232_61_131_10_noclean
