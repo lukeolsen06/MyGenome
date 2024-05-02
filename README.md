@@ -36,7 +36,10 @@ Output: 2,640,919,623
 ### Step size of 2
 ```sbatch velvetoptimiser_noclean.sh UFVPY232 93 109 2```
 
-## 3. BLASTing genome against mitochondrial genome and the B71v2sh reference genome
+## 3. Assessing genome completeness using BUSCO
+```sbatch BuscoSingularity.sh UFVPY232/velvet_UFVPY232_93_109_2_noclean/UFVPY232_nh.fasta```
+
+## 4. BLASTing genome against mitochondrial genome and the B71v2sh reference genome
 ### Ran a blastn search using the sequence in MoRepeats.fasta as the query and my genome as the database (subject)
 ```blastn -subject UFVPY232.fasta -query MoRepeats.fasta -out MoRepeats.UFVPY232.BLASTn0 -evalue 1e-20 -outfmt 0```
 
