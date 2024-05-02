@@ -18,11 +18,11 @@ Take screen shots of outuput files:
 java -jar trimmomatic-0.38.jar PE -threads 2 -phred33 -trimlog trimlog.txt UFVPY232_1.fq UFVPY232_2.fq UFVPY232_1_paired.fastq UFVPY232_1_unpaired.fastq UFVPY232_2_paired.fastq UFVPY232_2_unpaired.fastq CROP:280 SLIDINGWINDOW:20:20 MINLEN:120
 ```
 
-## Count number of forward reads remaining
+### Count number of forward reads remaining
 ```bash
 grep -c '@' UFVPY232_1_paired.fastq
 ```
-## Count number of forward bases
+### Count number of forward bases
 ```bash
 awk 'NR%4==2 {total += length($0)} END {print total}' UFVPY232_1_paired.fastq
 ```
